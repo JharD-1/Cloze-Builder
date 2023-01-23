@@ -132,20 +132,15 @@ a  {
 } 
     .container h2 {
    
-        font-size: 18px;
+        font-size: 21px;
     }
     .container h2 span sub {
-        font-size: 14px;
+        font-size: 15px;
     }
     .container textarea {
         font-size: 16px;
     }
     #display {
         font-size: 16px;
-    }
-}
-@media screen  and (max-width: 400px){
-    .container h2 {
-        font-size: 25px;
     }
 }
