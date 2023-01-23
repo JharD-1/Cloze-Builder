@@ -127,7 +127,11 @@ a  {
     border: none;
 }
 @media screen  and (max-width: 400px){
+   .container {
+ margin-top: 50px;
+} 
     .container h2 {
+   
         font-size: 18px;
     }
     .container h2 span sub {
