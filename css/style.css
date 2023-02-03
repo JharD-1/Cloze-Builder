@@ -10,10 +10,14 @@ body {
 }
 .form__container {
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-direction: no-wrap;
 }
+.box--1 {
+    margin-right: 20px;
+} 
 .container {
     top: 50%;
     left: 50%;
@@ -127,7 +131,10 @@ a  {
     border: none;
 }
 @media screen  and (max-width: 400px){
-   .container {
+  .form__container { 
+         flex-wrap: wrap;
+} 
+  .container {
  margin-top: 50px;
 } 
     .container h2 {
