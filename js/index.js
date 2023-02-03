@@ -12,12 +12,12 @@ submitButton.addEventListener("click", function(event){
     event.preventDefault();
     var data = textInput.value;
     var words = data.split(" ");
-    if (words.length < 50) {
+    if (words.length < 20) {
         inputError.style.display = "block";
         return;
     }
     inputError.style.display = "none";
-    var numberOfWordsToRemove = 20;
+    var numberOfWordsToRemove = Math.floor(words.length / 2);
     for(var i = 0; i < numberOfWordsToRemove; i++) {
         var randomIndex = Math.floor(Math.random() * words.length);
         words.splice(randomIndex, 1, "<span class='blank-line'>.....</span>");
