@@ -1,8 +1,7 @@
-# Frontend Mentor - QR code component solution
+# Clozer Builder component 
 
-I've just completed a front-end coding challenge from @frontendmentor! 🎉
-
-You can see my solution here: https://www.frontendmentor.io/solutions/qr-code-component-ujqQPsMztC
+I've just created a Clozer builder🎉
+what this does is that it create a quick fill-in-the-blanks question from a random group of text entered in the input✨
 
 
 ## Table of contents
@@ -25,8 +24,7 @@ You can see my solution here: https://www.frontendmentor.io/solutions/qr-code-co
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/qr-code-component-ujqQPsMztC)
-- Live Site URL: [Live](https://qr-code-bice.vercel.app/)
+- Live Site URL: [Live](https://cloze-builder.vercel.app/)
 
 ## My process
 
@@ -39,20 +37,13 @@ You can see my solution here: https://www.frontendmentor.io/solutions/qr-code-co
 
 ### What I learned
 how you can use the add event listener function on events on page
-
+and also the splice() and join() methods
 
 ```js
-.qr-box { 
-    background: hsl(0, 0%, 100%); 
-    border-radius: 15px;
-    padding: 20px;
-    width: 400px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0px 14px 20px 20px rgba(31, 50, 81, 0.1);
-}
+for(var i = 0; i < numberOfWordsToRemove; i++) {
+        var randomIndex = Math.floor(Math.random() * words.length);
+        words.splice(randomIndex, 1, "<span class='blank-line'>.....</span>");
+    }
 ```
 
 ### Continued development
