@@ -134,6 +134,9 @@ a  {
   .form__container { 
          flex-wrap: wrap;
 } 
+.box--1 {
+margin-right: 0;
+}
   .container {
  margin-top: 50px;
 } 
