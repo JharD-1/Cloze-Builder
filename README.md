@@ -34,16 +34,14 @@ You can see my solution here: https://www.frontendmentor.io/solutions/qr-code-co
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Mobile-first workflow
+- Vanilla Javascript 
 
 
 ### What I learned
+how you can use the add event listener function on events on page
 
-I learnt how to center a div using positioning, without flexbox
 
-To see how you can add code snippets, see below:
-
-```css
+```js
 .qr-box { 
     background: hsl(0, 0%, 100%); 
     border-radius: 15px;
@@ -59,7 +57,7 @@ To see how you can add code snippets, see below:
 
 ### Continued development
 
-I would continue to focus more on flexbox and grid so i can keep creating magic
+I'm still learning the basics of Javascript 
 
 ### Useful resources
 
