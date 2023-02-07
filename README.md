@@ -22,7 +22,7 @@ use the Live [here](#links) and try it out💯
 ## Overview
 ### Screenshot
 
-![Screenshot](https://github.com/JharD-1/Cloze-Builder/blob/main/img/overview220d4587-e206-4da1-928c-a004c3fec95b)
+![Screenshot](https://github.com/JharD-1/Cloze-Builder/blob/main/img/Web%20capture_6-2-2023_20198_cloze-builder.vercel.app.jpeg)
 
 ### Links
 
