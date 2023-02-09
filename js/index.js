@@ -17,7 +17,7 @@ submitButton.addEventListener("click", function(event){
         return;
     }
     inputError.style.display = "none";
-    var numberOfWordsToRemove = Math.floor(words.length * 0.125);
+    var numberOfWordsToRemove = Math.floor(words.length * 0.2);
     for(var i = 0; i < numberOfWordsToRemove; i++) {
         var randomIndex = Math.floor(Math.random() * words.length);
         words.splice(randomIndex, 1, "<span class='blank-line'>.....</span>");
