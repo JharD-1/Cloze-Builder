@@ -44,7 +44,7 @@ background: linear-gradient(45deg, blue, rgb(188, 8, 161));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-padding-top: 3rem;
+margin: 3rem 0;
 } 
 .hearts { color: red; 
 font-size: 17px;
