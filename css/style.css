@@ -39,7 +39,7 @@ body {
 }
 p {
 font-family: cursive;
-font-size: 18px;
+font-size: 20px;
 background: linear-gradient(45deg, blue, rgb(188, 8, 161));
     background-clip: text;
     -webkit-background-clip: text;
@@ -151,11 +151,9 @@ margin-right: 0;
 } 
     .container h2 {
    
-        font-size: 30px;
+        font-size: 38px;
     }
-    .container h2 span sub {
-        font-size: 13px;
-    }
+    
     .container textarea {
         font-size: 16px;
     }
