@@ -46,7 +46,9 @@ background: linear-gradient(45deg, blue, rgb(188, 8, 161));
     color: transparent;
 padding-top: 3rem;
 } 
-.hearts { color: red; } 
+.hearts { color: red; 
+font-size: 17px;
+} 
 .container h2 span sub {
     font-size: 16px;
 }
